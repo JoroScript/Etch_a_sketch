@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch A Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <h1>Welcome To Etch A Sketch!</h1>
+    <div class="getInfo">
+        <p>Enter Grid Value: </p>
+        <input type="text" id="gridNum" >
+    </div>
+   
+    <div class="getInfo">
+    <button>Create New Grid</button>
+    <button id="randBtn">Rainbow</button>
+    <input type="color" id="color">
+    <button id="clear">Clear</button>
+    </div>
+   
+   
+    <div id="container"></div>
+    <p id="error" class="hidden">Input must be a number between 1 and 99!</p>
+    <script src="code.js" defer></script>
+</body>
+</html>
